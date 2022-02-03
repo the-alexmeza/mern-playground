@@ -24,7 +24,7 @@ function App() {
       age,
       username,
     }).then((response) => {
-      loadUsers();
+      loadUsers(); // I could just set the state here rather doing another GET
     });
   };
 
